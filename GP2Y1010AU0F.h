@@ -37,7 +37,7 @@ class GP2Y1010AU0F {
     int            _samplingTime     = 280;
     int            _deltaTime        = 40;
     int            _sleepTime        = 9680;
-    float          _VCC              = 5.0;
+    float          _VCC              = 3.3;
 
   public:
     GP2Y1010AU0F(uint8_t ledPin, uint8_t measurePin);
